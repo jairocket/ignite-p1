@@ -1,0 +1,40 @@
+:root {
+  --white: #ffffff;
+  --gray-100: #f2f2ff;
+  --gray-200: #d9d9d9;
+  --gray-300: #808080;
+  --gray-400: #333333;
+  --gray-500: #262626;
+  --gray-600: #1a1a1a;
+  --gray-700: #0d0d0d;
+  --purple: #8284fa;
+  --purpleDark: #5e60ce;
+  --blue: #4ea8de;
+  --blueDark: #1e6f9f;
+  --danger: #e25858;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  background: var(--gray-600);
+  color: var(--gray-200);
+  -webkit-font-smoothing: antialiased; /* torna as fontes não padrão do sistema mais detalhadas */
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem; /* 1rem = 16px*/
+}

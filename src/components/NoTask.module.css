@@ -1,0 +1,16 @@
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid;
+  border-color: var(--gray-400);
+}
+
+.empty img {
+  margin-top: 4rem;
+}
+
+.empty strong {
+  line-height: 1.6;
+  margin-top: 1rem;
+}
